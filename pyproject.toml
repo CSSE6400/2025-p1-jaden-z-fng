@@ -1,16 +1,15 @@
 [project]
-name = "2025-p1-jaden-z-fng"
+name = "practical01"
 version = "0.1.0"
 description = ""
 authors = [
     {name = "jaden-z-fng",email = "jfang5768@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.10"
-dependencies = [
-    "flask (>=3.1.0,<4.0.0)"
-]
 
+[tool.poetry.dependencies]
+python = ">=3.9"
+flask = "^3.1.0"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
